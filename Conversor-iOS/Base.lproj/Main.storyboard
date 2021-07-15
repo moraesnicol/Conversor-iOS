@@ -72,14 +72,14 @@
                                 </subviews>
                                 <color key="backgroundColor" name="AccentColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8A-3H-rM2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="g8A-3H-rM2">
                                 <rect key="frame" x="56" y="470" width="305" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7n-7Y-472">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7n-7Y-472">
                                 <rect key="frame" x="56" y="627" width="305" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
@@ -95,6 +95,7 @@
                         <outlet property="buttonUnit2" destination="rd7-Yr-1zh" id="iz7-l3-43U"/>
                         <outlet property="labelResult" destination="g8A-3H-rM2" id="a6g-cW-smp"/>
                         <outlet property="labelUnit" destination="n7n-7Y-472" id="KQJ-fp-E4A"/>
+                        <outlet property="labelUnitTop" destination="bm9-ct-JYj" id="8G1-up-wL9"/>
                         <outlet property="textFieldValue" destination="q6S-BH-wAq" id="R8N-v9-rBE"/>
                     </connections>
                 </viewController>
